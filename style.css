@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Marcellus+SC&family=Monoton&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #413f3f;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    background-color: #F2E1AE ;
+}
+
+
+header{
+    position: flex;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding-bottom: 0%;
+    background-image: url(images/ImagebyMartindeArribafromPixabay.jpg);
+    background-size: cover;
+    height: 100vh;
+   
+}
+
+#topbackground2{
+    display: flex;
+    position: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding-bottom: 0%;
+    background-image: url(images/ImagebyMartindeArribafromPixabay.jpg);
+    background-size: cover;
+   
+}
+
+#topbackground3{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding-bottom: 0%;
+    background-image: url(images/ImagebyMartindeArribafromPixabay.jpg);
+    background-size: cover;
+   
+}
+
+header h1{
+    font-family: 'Monoton',cursive;
+    font-size: 80px;
+    margin: 0%;
+    padding: 2%;
+    
+}
+
+#topbackground2 h1{
+    font-family: 'Monoton',cursive;
+    font-size: 80px;
+    margin: 0%;
+    padding: 2%;
+    
+}
+
+#topbackground3 h1{
+    font-family: 'Monoton',cursive;
+    font-size: 80px;
+    margin: 0%;
+    padding: 2%;
+    
+}
+
+.image1credit{
+    color: #ffe60048;
+    display:flex;
+}
+
+.creditcontainer{ 
+    height: 100vh;
+}
+
+.creditcontainer2{ 
+    height: 5vh;
+}
+
+.creditcontainer3{ 
+    height: 5vh;
+}
+
+.imagecredit{
+    font-size: 14px;
+    color: #3d3b2ace;
+    position: flex;
+    margin: 0%;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+ .nav a{
+    position: flex;
+    color: #333333;
+    text-decoration: underline;
+    background-color: #05212e28;
+    justify-content: center;
+    width: 33%;
+} 
+
+
+.nav a:hover {
+    background-color: #c9c9c9;
+}
+
+.main_text{
+    font-family: 'Marcellus SC', serif;
+    font-size: 30px;
+    color: #010A26;
+    padding: 3%;
+    text-align: center;    
+    border: #010A26;
+}
+
+.imagemenu{
+    display: flex;
+    color: black;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: #36361a41 solid 5px;
+}
+
+
+
+
+img{
+    width: 100%;
+}
+
+
+.image1{flex:1.5323;/*width divided by height of image*/} 
+.image2{flex:1.3334}
+
+.image1 img, .image2 img{
+    border: 3px solid rgba(242, 61, 76, 0.863);
+    box-sizing: border-box;
+}
+
+
+.imageheader{
+    margin: 0% 2%;
+    color: rgba(209, 224, 143, 0.698);
+    text-decoration: underline;
+    text-decoration-color: rgba(209, 224, 143, 0.698);
+    background-color: rgba(242, 61, 76, 0.863);
+} 
+
+
+#imagemenubottom{
+    display: flex;
+    color: black;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#bottombackground {
+    background-color: #F2E1AE;
+    margin: 0%;
+    padding: 0%;
+}
+
+#bottombackground2{
+    background-color: #F2E1AE;
+    margin: 0%;
+    padding: 0%;
+    border-top: #36361a41 solid 5px;
+}
+
+#bottombackground3{
+    background-color: #F2E1AE;
+    margin: 0%;
+    padding: 0%;
+    border-top: #36361a41 solid 5px;
+}
+
+.imagedesctext{
+    font-size:19px;
+    padding: 1%;
+    margin: 1%;
+    position: flex;
+    border: rgba(242, 61, 76, 0.863) solid; /* same colour as previous page for consistency of colour scheme */
+
+}
+
+.imagespoto{
+    position: flex; 
+    min-width: 50%;
+}
+
+.imageslesmis{
+    position: flex; 
+    min-width: 45%;
+}
+
+#footertext{
+    padding: .5%;
+    border: rgba(242, 61, 76, 0.863) solid 12px;
+}
